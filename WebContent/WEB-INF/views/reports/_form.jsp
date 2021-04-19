@@ -18,10 +18,18 @@
 <c:out value="${sessionScope.login_employee.name}" />
 <br /><br />
 
-<label for="title">タイトル</label><br />
-<input type="text" name="title" value="${report.title}" />
-<br /><br />
-
+<label for="name">タイトル</label><br />
+    <select name="title">
+        <option value="【CS業務】返品保証対応">【CS業務】返品保証対応</option>
+        <option value="【CS業務】お問い合わせ">【CS業務】お問い合わせ</option>
+        <option value="【CS業務】再発送対応">【CS業務】再発送対応</option>
+        <option value="【CS業務】会員登録">【CS業務】会員登録</option>
+        <option value="【CS業務】解約案内">【CS業務】解約案内</option>
+        <option value="【自社業務】HP作成">【自社業務】HP作成</option>
+        <option value="【自社業務】A社打ち合わせ">【自社業務】A社打ち合わせ</option>
+        <option value="【自社業務】B社打ち合わせ">【自社業務】B社打ち合わせ</option>
+        <option value="【自社業務】経費精算">【自社業務】経費精算</option>
+    </select>
 <label for="content">内容</label><br />
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
