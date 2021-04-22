@@ -8,8 +8,8 @@
                 <c:out value="${flush}"></c:out>
             </div>
         </c:if>
-        <h2>日報管理システムへようこそ</h2>
-        <h3>【自分の日報  一覧】</h3>
+        <h2>らくらく日報管理</h2>
+        <h3>【日報一覧】</h3>
         <table id="report_list">
             <tbody>
                 <tr>
